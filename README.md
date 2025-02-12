@@ -20,9 +20,14 @@ pip install pandas numpy seaborn matplotlib scikit-learn
 
 ---
 
-### **📌 Cara Menggunakan Visualisasi di GitHub**
-1. **Simpan gambar hasil visualisasi dalam folder `images/` di dalam repository.**  
-2. **Pastikan sudah membuat plot dan menyimpan hasilnya di dalam kode:**  
+### **📈 Visualization Results**
+Below are the results of salary predictions using both Linear Regression and Random Forest Regressor:
+
+### Linear Regression Result
+Predicted salaries vs actual salaries using a simple linear regression model
+![Linear Regression Result](images/linear_regression.png)
+
+### Random Forest Result
+Predicted salaries vs actual salaries using a simple Random Forest model
+![Random Forest Result](images/random_forest.png)
    ```python
-   plt.savefig("images/linear_regression.png")
-   plt.savefig("images/random_forest.png")
